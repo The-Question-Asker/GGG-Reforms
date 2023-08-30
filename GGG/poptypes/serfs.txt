@@ -116,8 +116,8 @@ ideologies = {
             factor = 1.8
             country = {
                 OR = {
-                    land_reform_pol = farm_cooperatives
-                    land_reform_pol = collectivized_farming
+                    vote_franschise = universal_weighted_voting
+                    vote_franschise = universal_voting
                 }
             }
         }
@@ -207,8 +207,8 @@ peonage = {
             factor = 1.8
             country = {
                 OR = {
-                    land_reform_pol = farm_cooperatives
-                    land_reform_pol = collectivized_farming
+                    vote_franschise = universal_weighted_voting
+                    vote_franschise = universal_voting
                 }
             }
         }

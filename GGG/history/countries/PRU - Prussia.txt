@@ -1,95 +1,46 @@
-capital = 549
-primary_culture = north_german
-culture = south_german
+capital = 1
+primary_culture = british
 religion = protestant
 government = absolute_monarchy
-plurality = 25.0
+plurality = 25.1
 nationalvalue = nv_order
-literacy = 0.70
-non_state_culture_literacy = 0.25
+literacy = 0.17
 civilized = yes
+is_releasable_vassal = no
 
-
-#GreaterPowers = prestige
-prestige = 50
-
-# Political reforms
-public_order = feudal_courts
-land_reform_pol = feudal_tenure
-banking_system = unregulated_currency
-school_system = no_school_system
+# Political reforms - inherit
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
 thralldom = thralldom_allowed
-administrative_reform = hereditary_bureaucracy
-legislative_system = noble_parliament
-health_care = no_health_care
-infrastructure = ad_hoc_development
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
 
-# Social Reforms
+# Social Reforms - inherit
 wage_reform = no_minimum_wage
-worker_protections = no_protections
-clerical_policy = morality_police
-social_privileges = feudal_rights
-welfare_laws = universal_grain_dole
-slavery = yes_slavery
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+border_policy = open_borders
+
+ruling_party = dominion_conservative
+upper_house = {
+    fascist = 0
+    liberal = 25
+    conservative = 65
+    reactionary = 10
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
+}
+#New Reforms
+conscription = two_year_draft
 debt_law = serfdom
 penal_system = capital_punishment
-
-#Matters of State
-press_rights = state_press
-border_policy = closed_borders
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-
-ruling_party = PRU_conservative_2
-upper_house = {
-	fascist = 0
-	liberal = 35
-	conservative = 55
-	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
-
-# Technologies
-post_napoleonic_thought = 1
-flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
-military_staff_system = 1
-army_command_principle = 1
-post_nelsonian_thought = 1
-clipper_design = 1
-naval_design_bureaus = 1
-alphabetic_flag_signaling = 1
-the_command_principle = 1
-classicism_n_early_romanticism = 1
-late_enlightenment_philosophy = 1
-malthusian_thought = 1
-enlightenment_thought = 1
-introspectionism = 1
-private_banks = 1
-no_standard = 1
-early_classical_theory_and_critique = 1
-freedom_of_trade = 1
-guild_based_production = 1
-water_wheel_power = 1
-publishing_industry = 1
-mechanized_mining = 1
-basic_chemistry = 1
-army_professionalism = 1
-mechanical_production = 1
-
-romanticism = 1
-practical_steam_engine = 1
-#clean_coal = 1
-
-
-#Inventions
-
-# Starting Consciousness
-consciousness = 3
-nonstate_consciousness = 1
-
-schools = army_tech_school
-
-

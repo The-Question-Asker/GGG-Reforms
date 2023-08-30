@@ -48,11 +48,11 @@ issues = {
         }
     }
 
-    code_of_rights = {
+    freedom_of_womb = {
         factor = 1
         modifier = {
             factor = 0
-            NOT = { is_next_reform = code_of_rights }
+            NOT = { is_next_reform = freedom_of_womb }
         }
 
         modifier = {
@@ -61,34 +61,6 @@ issues = {
         }
 
     }
-	
-    public_ownership = {
-        factor = 1
-        modifier = {
-            factor = 0
-            NOT = { is_next_reform = public_ownership }
-        }
-
-        modifier = {
-            factor = 0
-            country = { civilized = no }
-        }
-
-    }
-
-    gradual_abolition = {
-        factor = 1
-        modifier = {
-            factor = 0
-            NOT = { is_next_reform = gradual_abolition }
-        }
-
-        modifier = {
-            factor = 0
-            country = { civilized = no }
-        }
-
-    }	
 
     yes_slavery = {
         factor = 1

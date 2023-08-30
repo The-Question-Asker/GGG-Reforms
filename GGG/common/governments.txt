@@ -3,10 +3,6 @@
 
 
 
-
-
-###################### VANILLA GOVERNMENTS ####################
-
 proletarian_dictatorship = {
     #which ideology of parties.
     communist = yes

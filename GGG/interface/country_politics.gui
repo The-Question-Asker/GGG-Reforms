@@ -589,7 +589,7 @@ guiTypes = {
 			########################
 			
 			windowType = {
-			name = "health_care" #HEALTHCARE REAL
+			name = "conscription"
 			backGround =""
 			position = { x = 691 y = 176 }
 			size = { x=151 y= 100}
@@ -600,8 +600,8 @@ guiTypes = {
 			fullScreen = no
 			
 				iconType = {
-				name = "politics_healthcare"
-				spriteType = "GFX_politics_healthcare"
+				name = "politics_conscription"
+				spriteType = "GFX_politics_conscription"
 				position = { x= 6 y = 7 } #WAS { x= 7 y = 8 }
 				Orientation = "UPPER_LEFT"
 					}
@@ -643,7 +643,7 @@ guiTypes = {
 		}
 		
 		windowType = {
-			name = "infrastructure" 
+			name = "debt_law"
 			backGround =""
 			position = { x = 843 y = 248 }
 			size = { x=151 y= 100}
@@ -654,8 +654,8 @@ guiTypes = {
 			fullScreen = no
 			
 				iconType = {
-				name = "politics_infrastructure"
-				spriteType = "GFX_politics_infrastructure"
+				name = "politics_penal"
+				spriteType = "GFX_politics_penal"
 				position = { x= 6 y = 8 } #WAS { x= 7 y = 8 }
 				Orientation = "UPPER_LEFT"
 					}
@@ -671,7 +671,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "public_order" #public order
+				name = "slavery"
 				backGround =""
 				position = { x = 843 y = 335 }
 				size = { x=151 y=100 }
@@ -682,8 +682,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_public_order"
-				 spriteType = "GFX_politics_public_order"
+				 name = "politics_slavery"
+				 spriteType = "GFX_politics_slavery"
 				 position = { x= 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -699,7 +699,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "banking_system"
+				name = "upper_house_composition"
 				backGround =""
 				position = { x = 843 y = 73 }
 				size = { x=151 y=100 }
@@ -710,8 +710,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_banking_system"
-				 spriteType = "GFX_politics_banking_system"
+				 name = "politics_upperhouse"
+				 spriteType = "GFX_politics_upperhouse"
 				 position = { x= 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -728,7 +728,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "land_reform_pol"
+				name = "vote_franschise"
 				backGround =""
 				position = { x = 691 y = 278 }
 				size = { x = 151 y = 114 }
@@ -739,8 +739,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_land_reform_pol"
-				 spriteType = "GFX_politics_land_reform_pol"
+				 name = "politics_votefran"
+				 spriteType = "GFX_politics_votefran"
 				 position = { x= 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -756,7 +756,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "school_system"
+				name = "voting_system"
 				backGround =""
 				position = { x = 691 y = 394 }
 				size = { x=151 y=70 }
@@ -767,8 +767,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_school_system"
-				 spriteType = "GFX_politics_school_system"
+				 name = "politics_votingsys"
+				 spriteType = "GFX_politics_votingsys"
 				 position = { x= 6 y = 8 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -782,6 +782,7 @@ guiTypes = {
 					maxHeight = 20	
 				}
 			}
+			
 			
 			windowType = {
 				name = "thralldom"
@@ -868,7 +869,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "administrative_reform"
+				name = "trade_unions"
 				backGround =""
 				position = { x = 843 y = 160 }
 				size = { x=151 y=100 }
@@ -879,8 +880,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_administrative_reform"
-				 spriteType = "GFX_politics_administrative_reform"
+				 name = "politics_tradeunions"
+				 spriteType = "GFX_politics_tradeunions"
 				 position = { x= 6 y = 8 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -897,7 +898,7 @@ guiTypes = {
 			
 			
 			windowType = {
-				name = "legislative_system"
+				name = "political_parties"
 				backGround =""
 				position = { x = 691 y = 74 }
 				size = { x=151 y=100 }
@@ -908,8 +909,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_legislative_system"
-				 spriteType = "GFX_politics_legislative_system"
+				 name = "politics_polparties"
+				 spriteType = "GFX_politics_polparties"
 				 position = { x= 6 y = 8 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -957,7 +958,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "worker_protections"
+				name = "work_hours"
 				backGround =""
 				position = { x = 536 y = 74 }
 				size = { x=151 y=100 }
@@ -968,8 +969,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_worker_protections"
-				 spriteType = "GFX_politics_worker_protections"
+				 name = "politics_maxwork"
+				 spriteType = "GFX_politics_maxwork"
 				 position = { x = 6 y = 8 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -985,7 +986,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "clerical_policy"
+				name = "safety_regulations"
 				backGround =""
 				position = { x = 384 y = 176 }
 				size = { x=151 y=100 }
@@ -996,8 +997,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_clerical_policy"
-				 spriteType = "GFX_politics_clerical_policy"
+				 name = "politics_safetyreg"
+				 spriteType = "GFX_politics_safetyreg"
 				 position = { x = 4 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1013,7 +1014,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "social_privileges"
+				name = "unemployment_subsidies"
 				backGround =""
 				position = { x = 536 y = 176 }
 				size = { x=151 y=100 }
@@ -1024,8 +1025,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_social_privileges"
-				 spriteType = "GFX_politics_social_privileges"
+				 name = "politics_unemplsub"
+				 spriteType = "GFX_politics_unemplsub"
 				 position = { x = 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1041,7 +1042,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "welfare_laws"
+				name = "pensions"
 				backGround =""
 				position = { x = 384 y = 278 }
 				size = { x=151 y=100 }
@@ -1052,8 +1053,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_welfare_laws"
-				 spriteType = "GFX_politics_welfare_laws"
+				 name = "politics_pensions"
+				 spriteType = "GFX_politics_pensions"
 				 position = { x = 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1069,7 +1070,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "slavery"
+				name = "health_care"
 				backGround =""
 				position = { x = 536 y = 278 }
 				size = { x=151 y=100 }
@@ -1080,8 +1081,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-				 name = "politics_slavery"
-				 spriteType = "GFX_politics_slavery"
+				 name = "politics_healthcare"
+				 spriteType = "GFX_politics_healthcare"
 				 position = { x = 6 y = 7 }
 				 Orientation = "UPPER_LEFT"
 			 }
@@ -1097,7 +1098,7 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "debt_law"
+				name = "school_reforms"
 				backGround =""
 				position = { x = 384 y = 380 }
 				size = { x=151 y=100 }
@@ -1108,8 +1109,8 @@ guiTypes = {
 				fullScreen = no
 				
 				iconType = {
-					 name = "politics_debt_law"
-					 spriteType = "GFX_politics_debt_law"
+					 name = "politics_school"
+					 spriteType = "GFX_politics_school"
 					 position = { x = 6 y = 7 }
 					 Orientation = "UPPER_LEFT"
 				 }

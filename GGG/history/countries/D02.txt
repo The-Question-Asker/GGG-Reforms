@@ -1,4 +1,4 @@
-#capital = 
+#capital =
 primary_culture = british
 religion = protestant
 government = absolute_monarchy
@@ -6,44 +6,45 @@ plurality = 25.1
 nationalvalue = nv_order
 literacy = 0.17
 civilized = yes
-#dominion=yes
+is_releasable_vassal = no
 
-# Political reforms
-public_order = feudal_courts
-land_reform_pol = feudal_tenure
-banking_system = unregulated_currency
-school_system = no_school_system
+# Political reforms - inherit
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
 thralldom = thralldom_allowed
-administrative_reform = hereditary_bureaucracy
-legislative_system = noble_parliament
-health_care = no_health_care
-infrastructure = ad_hoc_development
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
 
-# Social Reforms
+# Social Reforms - inherit
 wage_reform = no_minimum_wage
-worker_protections = no_protections
-clerical_policy = morality_police
-social_privileges = feudal_rights
-welfare_laws = universal_grain_dole
-slavery = yes_slavery
-debt_law = serfdom
-penal_system = capital_punishment
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = no_schools
+border_policy = open_borders
 
-#Matters of State
-press_rights = state_press
-border_policy = closed_borders
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+set_country_flag = protestant_country
+
+#set_country_flag = dynamic_tag
 
 ruling_party = dominion_conservative
 upper_house = { # inherit
-	fascist = 0
-	liberal = 25
-	conservative = 65
-	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+    fascist = 0
+    liberal = 25
+    conservative = 65
+    reactionary = 10
+    anarcho_liberal = 0
+    socialist = 0
+    communist = 0
 }
-
-
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
